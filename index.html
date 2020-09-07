@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title></title>
+        <link rel="stylesheet" href="style.css" media="all" />
+    </head>
+    <body>
+        <nav id="header">
+
+        </nav>
+        <div class="st-wrapper">
+            <div class="container">
+                <div claSs="form-container">
+                    <div class="form">
+                        <input
+                            id="begging-str"
+                            type="text"
+                            name=""
+                            placeholder="はじめの文を入力してください"
+                        />
+                        <input
+                            id="begin-enter-status"
+                            class="enter-status"
+                            type="checkbox"
+                            name="enter-status"
+                        />
+                        <label for="enter-status">改行を含める</label>
+                    </div>
+                    <div class="form">
+                        <input
+                            id="end-str"
+                            type="text"
+                            name=""
+                            placeholder="終わりの文を入力してください"
+                        />
+                        <input
+                            id="end-enter-status"
+                            class="enter-status"
+                            type="checkbox"
+                            name="enter-status"
+                        />
+                        <label for="enter-status">改行を含める</label>
+                    </div>
+                    <textarea id="text" name="" cols="30" rows="10" placeholder="本文を入力してください"></textarea>
+                </div>
+                <div id="explain">
+                </h3>当コンテンツについて</h3>
+                    <p>
+                        当コンテンツは、文章の両端に予め指定した文章を補完するコンテンツです。本文を入力後、「ac;」と入力すると自動的に文字が補完されます。
+                    </p>
+                </div>
+            </div>
+            <nav id="footer">
+
+            </nav>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
